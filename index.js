@@ -294,5 +294,17 @@ module.exports = {
     // TODO: evaluate
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md
     'jsx-a11y/tabindex-no-positive': 0
+  },
+
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.json']
+      }
+    },
+    react: {
+      pragma: 'React',
+      version: '0.14'
+    }
   }
 };
