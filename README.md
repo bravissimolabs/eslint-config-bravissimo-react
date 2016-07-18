@@ -14,7 +14,7 @@ This is due to `eslint-config-airbnb` and `eslint-plugin-react` still having a p
         eslint@^3.0.1 \
         eslint-plugin-babel@^3.3.0 \
         eslint-plugin-import@^1.10.2
-        eslint-plugin-jsx-a11y@^2.0.1 \,
+        eslint-plugin-jsx-a11y@^2.0.1 \
         eslint-plugin-react@next \
         eslint-config-bravissimo@^1.0.1 \
 
