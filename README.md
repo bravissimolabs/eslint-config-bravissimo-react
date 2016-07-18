@@ -6,7 +6,7 @@ This is the ESLint configuration for [Bravissimo](http://bravissimolabs.com) pro
 
 There are currently no differences to the [base Airbnb React rules](https://github.com/airbnb/javascript/tree/master/react). However, rather than taking a dependency on the [`eslint-config-airbnb`](https://www.npmjs.com/package/eslint-config-airbnb) package, the rules are replicated here.
 
-This is due to `eslint-config-airbnb` and `eslint-plugin-react` still having a peerDependency on ESlint v2 - once it gets updated to use v3, the cloned rules can be swapped out and the Airbnb package taken as a dependency. This is currently blocked by a couple of its own dependencies - see https://github.com/airbnb/javascript/issues/936#issuecomment-230108045.
+This is due to `eslint-config-airbnb` and `eslint-plugin-react` still having a peerDependency on ESLint v2 - once it gets updated to use v3, the cloned rules can be swapped out and the Airbnb package taken as a dependency. This is currently blocked by a couple of its own dependencies - see https://github.com/airbnb/javascript/issues/936#issuecomment-230108045.
 
 ## Installation
 
@@ -17,6 +17,8 @@ This is due to `eslint-config-airbnb` and `eslint-plugin-react` still having a p
         eslint-plugin-jsx-a11y@^2.0.1 \
         eslint-plugin-react@next \
         eslint-config-bravissimo@^1.0.1 \
+
+Note - `eslint-plugin-react@next` is necessary to access the alpha of v6 which works with ESLint v3. Once v6 is published, it will be specified here explicitly. Obviously being an alpha, some caution is advised as things might break!
 
 ## Usage
 
