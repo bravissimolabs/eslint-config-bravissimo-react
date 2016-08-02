@@ -16,7 +16,7 @@ There is currently just one difference to the [base Airbnb React rules](https://
         eslint-plugin-import@^1.12.0 \
         eslint-plugin-jsx-a11y@^2.0.1 \
         eslint-plugin-react@^6.0.0 \
-        eslint-config-bravissimo@^2.0.0
+        eslint-config-bravissimo-react@^2.0.0
 
 ## Usage
 
