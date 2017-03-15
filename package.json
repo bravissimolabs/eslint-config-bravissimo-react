@@ -21,7 +21,7 @@
   "author": "Luke Bennett (http://lukebennett.com)",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-bravissimo": "^2.0.0",
+    "eslint-config-bravissimo": "^3.0.0",
     "eslint-config-airbnb": "^14.1.0"
   },
   "devDependencies": {
